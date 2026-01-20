@@ -1,3 +1,5 @@
+![Website Preview](image.png)
+
 # ALEEF Veterinary Center Website 🐾
 
 Welcome to the official ALEEF Veterinary Center website!  
