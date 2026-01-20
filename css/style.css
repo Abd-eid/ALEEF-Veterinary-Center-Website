@@ -405,6 +405,10 @@ body {
     background-color: #ffffff;
     position: relative;
     overflow: hidden;
+    
+    position: relative;
+
+
     /* transition: 0.25s; */
 }
 
@@ -424,21 +428,21 @@ body {
 }
 
 .box3 {
-    background-image: url(../images/Advanced_Diagnostics.jpg);
+    background-image: url(../images/Diagnostics.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .box4 {
-    background-image: url(../images/clinic.png);
+    background-image: url(../images/examination.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .box5 {
-    background-image: url(../images/doctors.png);
+    background-image: url(../images/reseption.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -457,57 +461,71 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(124, 207, 138, 0.45);
+
+    /* بدل الأخضر الفاتح القوي */
+    background: rgba(30, 111, 87, 0.28);  /* نفس أخضر العناوين */
     border-radius: 12px;
     z-index: 0;
-    visibility: hidden;
+
+    /* بدل visibility عشان الانتقال يصير ناعم */
+    opacity: 0;
+    transition: opacity 0.25s ease;
 }
 
 .Gallery-box .box-text {
     position: relative;
     z-index: 1;
-    visibility: hidden;
+
+    opacity: 0;
+    transform: translateY(6px);
+    transition: 0.25s ease;
 }
+
 
 .Gallery-box .box-text h3 {
     font-size: 20px;
     margin-bottom: 15px;
-    color: #195C41;
-
+    color: #ffffff; /* أبيض أوضح على الهوفر */
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .Gallery-box .box-text p {
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 1.6;
     margin-bottom: 20px;
 }
 
+
 .Gallery-box .box-text .box-button {
     border-radius: 12px;
-    padding: 6px 10px;
+    padding: 7px 11px;
     font-size: 16px;
-    margin: 0 1px;
+    margin: 0 4px;
     cursor: pointer;
 
-    background-color: #195c41;
+    background-color: #1E6F57;
     color: #ffffff;
-    border: 2px solid #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+
+    transition: 0.2s ease;
 }
 
+
 .Gallery-box .box-text .box-button:hover {
-    background-color: #60be78;
-    color: #013f26;
-    opacity: 0.92;
+    background-color: #145543;
+    color: #ffffff;
     transform: translateY(-2px);
 }
 
+
 .Gallery-box:hover .box-overlay {
-    visibility: visible;
+      opacity: 1;
 }
 
 .Gallery-box:hover .box-text {
-    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .Gallery-box .box-text .icon-eye {
@@ -930,12 +948,12 @@ body {
     transition: 0.3s;
 }
 
-/* زر الهوفر */
+
 .sec7div:hover button {
     background-color: #145843;
 }
 
-/* السعر */
+
 .sec7price {
     width: 100px;
     height: 100px;
@@ -979,7 +997,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(30, 111, 87, 0.60);
+    background-color: rgba(30, 111, 87, 0.32);
 
 }
 
@@ -1086,7 +1104,7 @@ body {
     text-align: center;
     border-radius: 10px;
     position: relative;
-    border: 1px solid #A5E6B4; /* تحديد خفيف للكرت */
+    border: 1px solid #A5E6B4; 
 }
 
 .sec9item2 {
@@ -1391,6 +1409,8 @@ body {
     color: white;
     margin: 0 1px;
     position: relative;
+    cursor: pointer;
+
 }
 
 .lasticons i:hover {
