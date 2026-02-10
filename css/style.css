@@ -6,11 +6,8 @@
 
 body {
     height: fit-content;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
     background-color: #F7FFF9;
-
-
 }
 
 /* ================= HEADER ================= */
@@ -24,7 +21,6 @@ body {
     border-bottom: 2px solid #8EE0A0;
     opacity: 0.85;
 }
-
 
 .header-logo {
     float: left;
@@ -405,11 +401,7 @@ body {
     background-color: #ffffff;
     position: relative;
     overflow: hidden;
-    
     position: relative;
-
-
-    /* transition: 0.25s; */
 }
 
 .box1 {
@@ -417,7 +409,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
 .box2 {
@@ -461,13 +452,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-
-    /* بدل الأخضر الفاتح القوي */
-    background: rgba(30, 111, 87, 0.28);  /* نفس أخضر العناوين */
+    background: rgba(30, 111, 87, 0.28);  
     border-radius: 12px;
     z-index: 0;
-
-    /* بدل visibility عشان الانتقال يصير ناعم */
     opacity: 0;
     transition: opacity 0.25s ease;
 }
@@ -481,11 +468,10 @@ body {
     transition: 0.25s ease;
 }
 
-
 .Gallery-box .box-text h3 {
     font-size: 20px;
     margin-bottom: 15px;
-    color: #ffffff; /* أبيض أوضح على الهوفر */
+    color: #ffffff; 
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -496,28 +482,23 @@ body {
     margin-bottom: 20px;
 }
 
-
 .Gallery-box .box-text .box-button {
     border-radius: 12px;
     padding: 7px 11px;
     font-size: 16px;
     margin: 0 4px;
     cursor: pointer;
-
     background-color: #1E6F57;
     color: #ffffff;
     border: 2px solid rgba(255, 255, 255, 0.9);
-
     transition: 0.2s ease;
 }
-
 
 .Gallery-box .box-text .box-button:hover {
     background-color: #145543;
     color: #ffffff;
     transform: translateY(-2px);
 }
-
 
 .Gallery-box:hover .box-overlay {
       opacity: 1;
@@ -657,7 +638,6 @@ body {
     transform: translate(6px, 6px);
 }
 
-
 .offer-card::after {
     border-radius: 10px;
     position: absolute;
@@ -671,7 +651,6 @@ body {
     transition: 0.4s;
     z-index: 0;
 }
-
 
 .offer-card:hover::after {
     top: 0;
@@ -741,7 +720,6 @@ body {
     line-height: 1.7;
 }
 
-
 .why-us-text i {
     color: #6FD28A;
     position: absolute;
@@ -749,7 +727,6 @@ body {
     top: 5px;
     font-size: 18px;
 }
-
 
 .why-us-img {
     width: 43%;
@@ -763,7 +740,6 @@ body {
     border-radius: 16px;
     display: block;
 }
-
 
 .why-us-img ul {
     list-style: none;
@@ -890,8 +866,6 @@ body {
     overflow: hidden;
 }
 
-
-
 .div72 {
     margin: 0 5%;
 
@@ -927,7 +901,6 @@ body {
     height: 100%;
 }
 
-
 .sec7div p {
     font-size: 15px;
     margin-top: 20px;
@@ -948,11 +921,9 @@ body {
     transition: 0.3s;
 }
 
-
 .sec7div:hover button {
     background-color: #145843;
 }
-
 
 .sec7price {
     width: 100px;
@@ -964,7 +935,6 @@ body {
     padding: 20px 0;
     transition: 0.3s;
 }
-
 
 .sec7div:hover .sec7price {
     border-color: #145843;
@@ -979,8 +949,6 @@ body {
 .sec7div:hover .sec7price h3 {
     color: #145843;
 }
-
-
 
 /*...................................end of section7-------------------------------------------------*/
 .section8 {
@@ -1040,7 +1008,6 @@ body {
     font-size: 30px;
     color: #FFFFFF;
     font-weight: 600;
-
 }
 
 .sec8item h5 {
@@ -1055,7 +1022,6 @@ body {
     color: rgba(255, 255, 255, 0.75);
     line-height: 1.6;
     font-size: 15px;
-
 }
 
 /*...................................end of section8-------------------------------------------------*/
@@ -1145,7 +1111,6 @@ body {
     width: 40px;
     height: 40px;
     background-color: #5FBF8A; 
-    /* border-radius: 50%; */
     margin-left: auto;
     border-bottom: 2px solid #ffffff;
     border-left: 2px solid #ffffff;
@@ -1198,7 +1163,6 @@ body {
     opacity: 0.14;
     border-radius: 10px;
     transition: 0.5s;
-    
 }
 
 .sec9-item:hover:after {
@@ -1207,7 +1171,6 @@ body {
 }
 
 /*...................................end of section9------------------------------------------------*/
-
 .section10 {
     height: 100vh;
     width: 100%;
@@ -1249,7 +1212,6 @@ body {
 .sec10-parent {
     overflow: auto;
 }
-
 
 .sec10-item {
     width: 30%;
@@ -1293,8 +1255,6 @@ body {
     border-radius: 10px;
     position: relative;
     z-index: 1;
-
-    
 }
 
 .sec10-icon {
@@ -1320,6 +1280,8 @@ body {
 .sec10-icon a {
     color:#1E6F57;
     text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .sec10-icon i {
@@ -1328,6 +1290,13 @@ body {
 }
 .sec10-item:hover .sec10-icon i {
     color:  #0F4F3A;
+}
+.sec10-icon,
+.sec10-icon ul,
+.sec10-icon li,
+.sec10-icon a {
+    position: relative;
+    z-index: 2;
 }
 
 .sec10-text {
@@ -1342,7 +1311,6 @@ body {
 
 .sec10-item:hover h4 {
     color: #0F4F3A;
-    
     letter-spacing: 0.5px;
 }
 
@@ -1364,8 +1332,6 @@ body {
     position: relative;
     z-index: 1;
 }
-
-
 /*...................................end of last section------------------------------------------------*/
 .lastsection {
     width: 100%;
@@ -1392,8 +1358,6 @@ body {
     border-radius: 14px;
 }
 
-
-
 .lasticons {
     margin-top: 18px;
 }
@@ -1410,7 +1374,6 @@ body {
     margin: 0 1px;
     position: relative;
     cursor: pointer;
-
 }
 
 .lasticons i:hover {
